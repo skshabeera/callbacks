@@ -1,13 +1,13 @@
-let name= (currentAdress) =>{
-    console.log("my name is shabeera")
-    currentAdress()
+function a(surname,callback){
+    console.log(surname +"begum")
+}
+function b(name){
+    console.log(name)
+}
+a("kumari",b)
 
-};
 
 
+// function  (){
 
-
-let currentAdress =()=>{
-    console.log("I am from Bangalore")
-};
-name(currentAdress)
+// }
